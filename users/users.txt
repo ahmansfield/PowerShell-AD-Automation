@@ -1,0 +1,10 @@
+Name: John Smith, SamAccountName: jsmith, UserPrincipalName: jsmith@example.com
+Name: Sarah Johnson, SamAccountName: sjohnson, UserPrincipalName: sjohnson@example.com
+Name: Michael Brown, SamAccountName: mbrown, UserPrincipalName: mbrown@example.com
+Name: Emily Davis, SamAccountName: edavis, UserPrincipalName: edavis@example.com
+Name: David Wilson, SamAccountName: dwilson, UserPrincipalName: dwilson@example.com
+Name: Jessica Moore, SamAccountName: jmoore, UserPrincipalName: jmoore@example.com
+Name: James Taylor, SamAccountName: jtaylor, UserPrincipalName: jtaylor@example.com
+Name: Ashley Anderson, SamAccountName: aanderson, UserPrincipalName: aanderson@example.com
+Name: Christopher White, SamAccountName: cwhite, UserPrincipalName: cwhite@example.com
+Name: Amanda Thomas, SamAccountName: athomas, UserPrincipalName: athomas@example.com
