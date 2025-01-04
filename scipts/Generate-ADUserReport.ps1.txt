@@ -1,0 +1,6 @@
+plaintext
+Copy code
+# Export user details to a CSV report
+Get-ADUser -Filter * -SearchBase "OU=Users,DC=example,DC=com" -Property * | `
+Select-Object Name, SamAccountName, EmailAddress, Office | `
+Export-Csv -Path "ADUserReport.csv" -NoTypeInformation

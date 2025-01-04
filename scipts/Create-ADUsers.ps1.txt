@@ -1,0 +1,11 @@
+# Import users from a CSV file and create them in Active Directory
+Import-Csv -Path "users.csv" | ForEach-Object {
+    New-ADUser -Name $_.Name `
+               -GivenName $_.FirstName `
+               -Surname $_.LastName `
+               -SamAccountName $_.SamAccountName `
+               -UserPrincipalName $_.UserPrincipalName `
+               -Path "OU=Users,DC=example,DC=com" `
+               -AccountPassword (ConvertTo-SecureString "P@ssw0rd" -AsPlainText -Force) `
+               -Enabled $true
+}

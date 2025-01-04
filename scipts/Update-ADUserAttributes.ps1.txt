@@ -1,0 +1,4 @@
+ Update attributes for all users in a specific Organizational Unit (OU)
+Get-ADUser -Filter * -SearchBase "OU=Users,DC=example,DC=com" | ForEach-Object {
+    Set-ADUser -Identity $_ -Office "New Office Location"
+}
