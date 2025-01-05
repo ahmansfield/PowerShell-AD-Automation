@@ -34,3 +34,4 @@ This project demonstrates how to automate common Active Directory tasks using Po
   ![Generated Report](images/generated_report.png)
 
 
+<img width="1006" alt="azure 1" src="https://github.com/user-attachments/assets/623c3bb1-ed56-49c0-8cbb-71757ff43b1a" />
